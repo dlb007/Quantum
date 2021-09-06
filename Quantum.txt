@@ -1,1 +1,1 @@
-Hello me
+# First, import the libraries you need for reading in web content. Use the model in "WebScraping.ipynb." Set the URL to a website of interest for your work: this can be anything, but will work best if it's a static site (not a social media hashtag, etc.)
