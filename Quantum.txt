@@ -1,1 +1,16 @@
 # First, import the libraries you need for reading in web content. Use the model in "WebScraping.ipynb." Set the URL to a website of interest for your work: this can be anything, but will work best if it's a static site (not a social media hashtag, etc.)
+# First, import the libraries you need for reading in web content. Use the model in "WebScraping.ipynb." 
+# Set the URL to a website of interest for your work: this can be anything, 
+# but will work best if it's a static site (not a social media hashtag, etc.)
+# boilerplate code - set up conversations with urls using a library
+
+import urllib.request, urllib.error, urllib.parse
+
+# setting up a url - replace me!
+url = 'https://github.com/AMSUCF/Critical-Making-Syllabus/blob/main/syllabus.md'
+
+# boilerplate code for requesting a webpage using a url
+response = urllib.request.urlopen(url)
+webContent = response.read()
+
+print(webContent[0:1000])
